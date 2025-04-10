@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NgAgain
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# angular-sandbox
+Angular-based web app developed for hands-on development
+>>>>>>> 3f472869ddc9082ab29ea33ecbf5bdf4aa138f91
