@@ -13,4 +13,5 @@ export class RolesComponent {
   fullname = "Esraa Alshaikh"
   firstname = "Maria"
   lastname = "Khalil"
+  inputType = "Enter Type Name"
 }

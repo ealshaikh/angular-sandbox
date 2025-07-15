@@ -1,23 +1,7 @@
-<!--div class="row">
-    <div class="col-3 px-5 fw-bold py-3">Interpolation: {{roleName}}</div>
-    <div class="col-3 px-5 py-3 d-flex"> First Name: <input type="text" class="form-control ms-3" [value] = "userName">  </div>
-
-    <div class="col-3 px-5 py-3 d-flex">
-        
-        Last Name: <input type="text" class="form-control ms-3" [(ngModel)] = "lastName"> 
-    </div>
-    <div class="col-3">
-        <p> Full Name: {{userName}} {{lastName}}</p>
-
-    </div>
-    <div class="col-3 fw-bold px-5 py-3">Property binding: <button [disabled]="isDisabled">Click</button></div>
-
-</div-->
-
 <div class="row">
   <div class="col-12" id="mainheader">Fresh Start</div>
   <div class="col-12 mb-2 border-color">
-    <label class="me-3 ms-2 fs-5 f5-weight" for="text">Constant Input:</label>
+    <label class="me-3 ms-2 fs-5 f5-weight" for="text">Interpolation:</label>
     <input type="text" id="text" value="Literal Value" />
   </div>
   <div class="col-12 mb-2 border-color">
@@ -36,5 +20,13 @@
     <span class="fs-5 f5-weight"
       >Final Output: {{ firstname }} {{ lastname }}</span
     >
+  </div>
+  <div class="col-12 mb-2 border-color">
+    <label class="me-3 ms-2 fs-5 f5-weight" for="inputType"
+      >Changing input type dynamically:</label
+    >
+    <input type="text" id="inputType" class="me-4" [(ngModel)]="inputType" />
+
+    <input [type]="inputType" />
   </div>
 </div>
