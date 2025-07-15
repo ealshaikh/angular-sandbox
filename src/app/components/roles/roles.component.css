@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Oswald:wght@200..700&family=Playwrite+VN+Guides&family=TikTok+Sans:opsz,wght@12..36,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+#mainheader {
+    background-color: purple;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: cursive;
+}
+
+.border-color {
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted lightpink;
+}
+
+.f5-weight {
+    font-weight: 500;
+}
